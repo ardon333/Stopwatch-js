@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pexels-damon-hall-2274725.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    background-color: white;
+    width: 40%;
+    height: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+
+    box-shadow: 10px 10px 20px 5px black ;
+
+}
+
+.timer{
+    font-size:72px;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+ 
+}
+.button{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:24px;
+}
+.buttons{
+    padding: 12px;
+    border: none;
+
+    
+}
+
+
+.buttons:first-child{
+    background-color: #40c057;
+}
+
+
+.buttons:last-child{
+    background-color: #f03e3e;
+}
+
+
+.play{
+    font-size:52px;
+    color:white;
+
+}
+.reset{
+    font-size: 52px;
+    color:white;
+    --ionicon-stroke-width: 48px;
+
+}
+
+
